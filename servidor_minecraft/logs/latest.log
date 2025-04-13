@@ -1,115 +1,642 @@
-[13Apr2025 00:45:23.344] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[13Apr2025 00:45:23.350] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[13Apr2025 00:45:23.474] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/solid-octo-sniffle/servidor_minecraft/config/fml.toml is not correct. Correcting
-[13Apr2025 00:45:23.475] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[13Apr2025 00:45:23.476] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
-[13Apr2025 00:45:23.477] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[13Apr2025 00:45:23.478] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[13Apr2025 00:45:23.493] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[13Apr2025 00:45:23.536] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/solid-octo-sniffle/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[13Apr2025 00:45:23.766] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/solid-octo-sniffle/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[13Apr2025 00:45:23.769] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/solid-octo-sniffle/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[13Apr2025 00:45:23.770] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/solid-octo-sniffle/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[13Apr2025 00:45:23.772] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/solid-octo-sniffle/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[13Apr2025 00:45:23.902] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[13Apr2025 00:45:25.372] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[13Apr2025 00:45:30.900] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[13Apr2025 00:45:30.903] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[13Apr2025 00:45:31.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[13Apr2025 00:45:31.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
-[13Apr2025 00:45:32.482] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13Apr2025 00:45:32.514] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/solid-octo-sniffle/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
-[13Apr2025 00:45:32.514] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/solid-octo-sniffle/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
-[13Apr2025 00:45:34.674] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[13Apr2025 00:45:34.823] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[13Apr2025 00:45:35.331] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[13Apr2025 00:45:35.332] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[13Apr2025 00:45:35.333] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[13Apr2025 00:45:35.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13Apr2025 00:45:35.543] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[13Apr2025 00:45:35.569] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[13Apr2025 00:45:35.658] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13Apr2025 00:45:35.659] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[13Apr2025 00:45:35.659] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13Apr2025 00:45:35.660] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[13Apr2025 00:45:35.688] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[13Apr2025 00:45:35.690] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13Apr2025 00:45:35.690] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[13Apr2025 00:45:35.691] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[13Apr2025 00:45:35.692] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[13Apr2025 00:45:35.693] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[13Apr2025 00:45:35.694] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[13Apr2025 00:45:35.695] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[13Apr2025 00:45:35.696] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[13Apr2025 00:45:35.697] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
-[13Apr2025 00:45:35.727] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[13Apr2025 00:45:42.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13Apr2025 00:45:42.800] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Apr2025 00:45:42.801] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Apr2025 00:45:43.017] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Apr2025 00:45:43.512] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Apr2025 00:45:44.020] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Apr2025 00:45:44.573] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Apr2025 00:45:45.010] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Apr2025 00:45:45.553] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[13Apr2025 00:45:46.004] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[13Apr2025 00:45:46.505] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[13Apr2025 00:45:47.019] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[13Apr2025 00:45:47.503] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[13Apr2025 00:45:48.068] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[13Apr2025 00:45:48.526] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[13Apr2025 00:45:49.008] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[13Apr2025 00:45:49.508] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[13Apr2025 00:45:50.011] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[13Apr2025 00:45:50.516] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[13Apr2025 00:45:51.008] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[13Apr2025 00:45:51.505] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[13Apr2025 00:45:52.006] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[13Apr2025 00:45:52.512] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
-[13Apr2025 00:45:53.005] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[13Apr2025 00:45:53.508] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[13Apr2025 00:45:54.017] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[13Apr2025 00:45:54.525] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[13Apr2025 00:45:55.022] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[13Apr2025 00:45:55.504] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
-[13Apr2025 00:45:56.004] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
-[13Apr2025 00:45:56.525] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[13Apr2025 00:45:57.016] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[13Apr2025 00:45:57.527] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
-[13Apr2025 00:45:58.004] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
-[13Apr2025 00:45:58.536] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
-[13Apr2025 00:45:59.005] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[13Apr2025 00:45:59.504] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
-[13Apr2025 00:46:00.019] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[13Apr2025 00:46:00.503] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
-[13Apr2025 00:46:01.007] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
-[13Apr2025 00:46:01.509] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[13Apr2025 00:46:02.026] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
-[13Apr2025 00:46:02.504] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
-[13Apr2025 00:46:03.020] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
-[13Apr2025 00:46:03.505] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[13Apr2025 00:46:04.008] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
-[13Apr2025 00:46:04.540] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[13Apr2025 00:46:05.017] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[13Apr2025 00:46:05.529] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
-[13Apr2025 00:46:06.010] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
-[13Apr2025 00:46:06.525] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
-[13Apr2025 00:46:07.020] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[13Apr2025 00:46:07.508] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
-[13Apr2025 00:46:08.011] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[13Apr2025 00:46:08.505] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
-[13Apr2025 00:46:09.004] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[13Apr2025 00:46:09.266] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 27263 ms
-[13Apr2025 00:46:09.267] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (33.587s)! For help, type "help"
-[13Apr2025 00:46:09.280] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[13Apr2025 00:46:21.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[13Apr2025 00:46:21.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13Apr2025 00:46:21.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13Apr2025 00:46:21.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13Apr2025 00:46:22.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13Apr2025 00:46:24.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[13Apr2025 00:46:24.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[13Apr2025 00:46:24.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13Apr2025 00:46:24.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13Apr2025 00:46:24.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13Apr2025 00:46:24.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13Apr2025 01:39:09.704] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[13Apr2025 01:39:09.708] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[13Apr2025 01:39:10.224] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Apr2025 01:39:10.232] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[13Apr2025 01:39:10.255] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[13Apr2025 01:39:10.274] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[13Apr2025 01:39:10.311] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/solid-octo-sniffle/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar%23159%23162!/ Service=ModLauncher Env=SERVER
+[13Apr2025 01:39:10.509] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/solid-octo-sniffle/servidor_minecraft/mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[13Apr2025 01:39:10.586] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/solid-octo-sniffle/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[13Apr2025 01:39:10.587] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/solid-octo-sniffle/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[13Apr2025 01:39:10.588] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/solid-octo-sniffle/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[13Apr2025 01:39:10.589] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/solid-octo-sniffle/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[13Apr2025 01:39:10.863] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[13Apr2025 01:39:10.864] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 12 dependencies adding them to mods collection
+[13Apr2025 01:39:11.342] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 0 candidates to load
+[13Apr2025 01:39:12.474] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[13Apr2025 01:39:13.519] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Apr2025 01:39:13.743] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[13Apr2025 01:39:13.758] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[13Apr2025 01:39:13.970] [main/WARN] [mixin/]: Reference map 'mes-forge-refmap.json' for mes-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Apr2025 01:39:13.974] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Apr2025 01:39:13.996] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Apr2025 01:39:14.022] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Apr2025 01:39:14.051] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Apr2025 01:39:15.647] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13Apr2025 01:39:19.972] [main/WARN] [mixin/]: @Final field f_26027_:Lnet/minecraft/world/entity/ai/targeting/TargetingConditions; in guardvillagers.mixins.json:DefendVillageGoalGolemMixin from mod guardvillagers should be final
+[13Apr2025 01:39:21.935] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[13Apr2025 01:39:22.038] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[13Apr2025 01:39:22.041] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[13Apr2025 01:39:22.041] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[13Apr2025 01:39:22.041] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[13Apr2025 01:39:22.041] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[13Apr2025 01:39:22.042] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[13Apr2025 01:39:22.042] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[13Apr2025 01:39:22.071] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/solid-octo-sniffle/servidor_minecraft/config/guardvillagers-common.toml is not correct. Correcting
+[13Apr2025 01:39:22.190] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[13Apr2025 01:39:22.199] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[13Apr2025 01:39:22.200] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[13Apr2025 01:39:22.203] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[13Apr2025 01:39:22.203] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[13Apr2025 01:39:22.231] [modloading-worker-0/INFO] [de.keksuccino.drippyloadingscreen.DrippyLoadingScreen/]: [DRIPPY LOADING SCREEN] Loading v3.0.11 in server-side mode on FORGE!
+[13Apr2025 01:39:22.355] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.4 initializing! Commit hash: 254bb816aee1c056c74b2ad4beb88222a499da78
+[13Apr2025 01:39:22.454] [modloading-worker-0/INFO] [de.keksuccino.fancymenu.FancyMenu/]: [FANCYMENU] Loading v3.4.6 in server-side mode on FORGE!
+[13Apr2025 01:39:22.611] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[13Apr2025 01:39:22.631] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[13Apr2025 01:39:22.662] [modloading-worker-0/WARN] [yungsapi/]: WARNING: block Block{minecraft:gold_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[13Apr2025 01:39:22.746] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[13Apr2025 01:39:22.749] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[13Apr2025 01:39:24.537] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[13Apr2025 01:39:24.538] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[13Apr2025 01:39:24.584] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@3501c1de has been registered twice for the same name treechop:chop_wood.
+[13Apr2025 01:39:26.317] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/solid-octo-sniffle/servidor_minecraft/config/guardvillagers-common.toml is not correct. Correcting
+[13Apr2025 01:39:26.388] [main/WARN] [yungsapi/]: WARNING: block Block{minecraft:gold_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[13Apr2025 01:39:26.426] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[13Apr2025 01:39:26.620] [modloading-worker-0/INFO] [com.biomemusic.BiomeMusic/]: biomemusic mod initialized
+[13Apr2025 01:39:26.679] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[13Apr2025 01:39:26.969] [main/INFO] [journeymap/]: Initializing Packet Registries
+[13Apr2025 01:39:26.996] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.4.0.jar%23224!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.4.0.jar%23224!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[13Apr2025 01:39:26.997] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[13Apr2025 01:39:27.024] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[13Apr2025 01:39:27.025] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[13Apr2025 01:39:27.025] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[13Apr2025 01:39:27.025] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[13Apr2025 01:39:27.025] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[13Apr2025 01:39:27.025] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[13Apr2025 01:39:27.026] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[13Apr2025 01:39:27.285] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[13Apr2025 01:39:27.285] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[13Apr2025 01:39:27.868] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[13Apr2025 01:39:27.871] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Starting version check at https://raw.githubusercontent.com/seymourimadeit/guardvillagers/master/update.json
+[13Apr2025 01:39:27.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Found status: BETA Current: 1.20.1-1.6.10 Target: 1.20-1.6.5
+[13Apr2025 01:39:27.930] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[13Apr2025 01:39:28.782] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.10 Target: 1.20.1-1.4.13
+[13Apr2025 01:39:28.782] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Apr2025 01:39:28.957] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[13Apr2025 01:39:28.958] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Starting version check at https://mc-update-check.anthonyhilyard.com/499826
+[13Apr2025 01:39:29.311] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Found status: UP_TO_DATE Current: 1.6.9 Target: null
+[13Apr2025 01:39:29.312] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[13Apr2025 01:39:29.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.19 Target: 17.1.19
+[13Apr2025 01:39:29.463] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[13Apr2025 01:39:29.525] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
+[13Apr2025 01:39:29.525] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[13Apr2025 01:39:29.541] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.4.0.jar%23224!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.4.0.jar%23224!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[13Apr2025 01:39:29.681] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Apr2025 01:39:29.763] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+epicfight (version 20.9.7 -> MISSING)
+oculus (version 1.8.0 -> MISSING)
+skinlayers3d (version 1.7.5 -> MISSING)
+wom (version 20.1.8.5.6 -> MISSING)
+Things may not work well.
+[13Apr2025 01:39:29.806] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing/unknown registrie(s).
+
+There are 3 missing registries in this save.
+If you continue the missing registries will get removed.
+This may cause issues, it is advised that you create a world backup before continuing.
+
+
+[13Apr2025 01:39:29.806] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing Registries:
+epicfight:conditions
+epicfight:skill
+epicfight:skill_data_keys
+
+[13Apr2025 01:39:29.866] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	epicfight:fracture_block: 1034
+
+[13Apr2025 01:39:29.868] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:enchantment
+	wom:invigoration: 39
+
+[13Apr2025 01:39:29.868] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	epicfight:area_effect_breath: 163
+	epicfight:death_harvest_orb: 167
+	epicfight:dodge_left: 168
+	epicfight:dropped_nether_star: 164
+	epicfight:wither_ghost: 166
+	epicfight:wither_skeleton_minion: 165
+	wom:antitheus_darkness: 170
+	wom:enderblast: 169
+	wom:lupus_rex: 171
+
+[13Apr2025 01:39:29.869] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	epicfight:bokken: 1358
+	epicfight:diamond_dagger: 1355
+	epicfight:diamond_greatsword: 1338
+	epicfight:diamond_longsword: 1351
+	epicfight:diamond_spear: 1343
+	epicfight:diamond_tachi: 1347
+	epicfight:glove: 1357
+	epicfight:golden_dagger: 1354
+	epicfight:golden_greatsword: 1337
+	epicfight:golden_longsword: 1350
+	epicfight:golden_spear: 1342
+	epicfight:golden_tachi: 1346
+	epicfight:iron_dagger: 1353
+	epicfight:iron_greatsword: 1336
+	epicfight:iron_longsword: 1349
+	epicfight:iron_spear: 1341
+	epicfight:iron_tachi: 1345
+	epicfight:netherite_dagger: 1356
+	epicfight:netherite_greatsword: 1339
+	epicfight:netherite_longsword: 1352
+	epicfight:netherite_spear: 1344
+	epicfight:netherite_tachi: 1348
+	epicfight:skillbook: 1362
+	epicfight:stone_greatsword: 1335
+	epicfight:stone_spear: 1340
+	epicfight:stray_hat: 1359
+	epicfight:stray_pants: 1361
+	epicfight:stray_robe: 1360
+	epicfight:uchigatana: 1333
+	epicfight:uchigatana_sheath: 1334
+	wom:agony: 1363
+	wom:antitheus: 1367
+	wom:demon_seal: 1403
+	wom:diamond_armbracelet: 1396
+	wom:diamond_crown: 1395
+	wom:diamond_greataxe: 1379
+	wom:diamond_legbottomseal: 1398
+	wom:diamond_legtopseal: 1397
+	wom:diamond_staff: 1385
+	wom:emerald_anklebracelet: 1394
+	wom:emerald_chakra: 1392
+	wom:emerald_earrings: 1391
+	wom:emerald_tasset: 1393
+	wom:ender_blaster: 1366
+	wom:eternal_fire_arcane: 1404
+	wom:gesetz: 1371
+	wom:gesetz_handle: 1372
+	wom:golden_chrono: 1401
+	wom:golden_greataxe: 1378
+	wom:golden_kit: 1400
+	wom:golden_mokassin: 1402
+	wom:golden_monocle: 1399
+	wom:golden_staff: 1384
+	wom:herrscher: 1370
+	wom:iron_greataxe: 1377
+	wom:iron_staff: 1383
+	wom:moonless: 1373
+	wom:moonless_handle: 1374
+	wom:netherite_belt: 1389
+	wom:netherite_chains: 1390
+	wom:netherite_greataxe: 1380
+	wom:netherite_manicle: 1388
+	wom:netherite_mask: 1387
+	wom:netherite_staff: 1386
+	wom:ruine: 1365
+	wom:satsujin: 1368
+	wom:satsujin_sheath: 1369
+	wom:solar: 1375
+	wom:solar_obscuridad: 1376
+	wom:stone_staff: 1382
+	wom:tormented_mind: 1364
+	wom:wooden_staff: 1381
+
+[13Apr2025 01:39:29.873] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
+	epicfight:instability: 39
+	epicfight:stun_immunity: 38
+
+[13Apr2025 01:39:29.873] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:painting_variant
+	epicfight:epicfight_logo: 30
+
+[13Apr2025 01:39:29.874] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	biomemusic:music.cave: 1479
+	biomemusic:music.end: 1475
+	biomemusic:music.game: 1476
+	biomemusic:music.menu: 1480
+	biomemusic:music.nether: 1474
+	biomemusic:music.night: 1477
+	biomemusic:music.water: 1478
+	epicfight:entity.enderdragon.dragon_breath: 1676
+	epicfight:entity.enderdragon.dragon_breath_finale: 1677
+	epicfight:entity.enderdragon.dragon_crystal_link: 1678
+	epicfight:entity.hit.blade: 1664
+	epicfight:entity.hit.blade_rush_last: 1669
+	epicfight:entity.hit.blunt: 1665
+	epicfight:entity.hit.blunt_hard: 1666
+	epicfight:entity.hit.clash: 1667
+	epicfight:entity.hit.eviscerate: 1668
+	epicfight:entity.weapon.sword_in: 1670
+	epicfight:entity.weapon.whoosh: 1671
+	epicfight:entity.weapon.whoosh_hard: 1672
+	epicfight:entity.weapon.whoosh_rod: 1675
+	epicfight:entity.weapon.whoosh_sharp: 1674
+	epicfight:entity.weapon.whoosh_small: 1673
+	epicfight:entity.wither.wither_spell_armor: 1679
+	epicfight:sfx.big_entity_move: 1689
+	epicfight:sfx.buzz: 1681
+	epicfight:sfx.entity_move: 1688
+	epicfight:sfx.ground_slam: 1684
+	epicfight:sfx.ground_slam_small: 1683
+	epicfight:sfx.laser_blast: 1682
+	epicfight:sfx.nether_star_glitter: 1687
+	epicfight:sfx.neutralize_bosses: 1685
+	epicfight:sfx.neutralize_mobs: 1686
+	epicfight:sfx.no_sound: 1680
+	epicfight:skill.forbidden_strength: 1690
+	epicfight:skill.rocket_jump: 1691
+	epicfight:skill.roll: 1692
+	wom:entity.lupus_aureum_howl: 1698
+	wom:sfx.antitheus_blackhole: 1694
+	wom:sfx.antitheus_blackhole_chargeup: 1695
+	wom:sfx.enderblaster_reload: 1693
+	wom:sfx.satsujin_gesshoku: 1699
+	wom:sfx.solar_hit: 1696
+	wom:sfx.time_travel: 1697
+
+[13Apr2025 01:39:29.877] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 129 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[13Apr2025 01:39:29.878] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    biomemusic:music.cave
+    biomemusic:music.end
+    biomemusic:music.game
+    biomemusic:music.menu
+    biomemusic:music.nether
+    biomemusic:music.night
+    biomemusic:music.water
+    epicfight:entity.enderdragon.dragon_breath
+    epicfight:entity.enderdragon.dragon_breath_finale
+    epicfight:entity.enderdragon.dragon_crystal_link
+    epicfight:entity.hit.blade
+    epicfight:entity.hit.blade_rush_last
+    epicfight:entity.hit.blunt
+    epicfight:entity.hit.blunt_hard
+    epicfight:entity.hit.clash
+    epicfight:entity.hit.eviscerate
+    epicfight:entity.weapon.sword_in
+    epicfight:entity.weapon.whoosh
+    epicfight:entity.weapon.whoosh_hard
+    epicfight:entity.weapon.whoosh_rod
+    epicfight:entity.weapon.whoosh_sharp
+    epicfight:entity.weapon.whoosh_small
+    epicfight:entity.wither.wither_spell_armor
+    epicfight:sfx.big_entity_move
+    epicfight:sfx.buzz
+    epicfight:sfx.entity_move
+    epicfight:sfx.ground_slam
+    epicfight:sfx.ground_slam_small
+    epicfight:sfx.laser_blast
+    epicfight:sfx.nether_star_glitter
+    epicfight:sfx.neutralize_bosses
+    epicfight:sfx.neutralize_mobs
+    epicfight:sfx.no_sound
+    epicfight:skill.forbidden_strength
+    epicfight:skill.rocket_jump
+    epicfight:skill.roll
+    wom:entity.lupus_aureum_howl
+    wom:sfx.antitheus_blackhole
+    wom:sfx.antitheus_blackhole_chargeup
+    wom:sfx.enderblaster_reload
+    wom:sfx.satsujin_gesshoku
+    wom:sfx.solar_hit
+    wom:sfx.time_travel
+
+Missing minecraft:item:
+    epicfight:bokken
+    epicfight:diamond_dagger
+    epicfight:diamond_greatsword
+    epicfight:diamond_longsword
+    epicfight:diamond_spear
+    epicfight:diamond_tachi
+    epicfight:glove
+    epicfight:golden_dagger
+    epicfight:golden_greatsword
+    epicfight:golden_longsword
+    epicfight:golden_spear
+    epicfight:golden_tachi
+    epicfight:iron_dagger
+    epicfight:iron_greatsword
+    epicfight:iron_longsword
+    epicfight:iron_spear
+    epicfight:iron_tachi
+    epicfight:netherite_dagger
+    epicfight:netherite_greatsword
+    epicfight:netherite_longsword
+    epicfight:netherite_spear
+    epicfight:netherite_tachi
+    epicfight:skillbook
+    epicfight:stone_greatsword
+    epicfight:stone_spear
+    epicfight:stray_hat
+    epicfight:stray_pants
+    epicfight:stray_robe
+    epicfight:uchigatana
+    epicfight:uchigatana_sheath
+    wom:agony
+    wom:antitheus
+    wom:demon_seal
+    wom:diamond_armbracelet
+    wom:diamond_crown
+    wom:diamond_greataxe
+    wom:diamond_legbottomseal
+    wom:diamond_legtopseal
+    wom:diamond_staff
+    wom:emerald_anklebracelet
+    wom:emerald_chakra
+    wom:emerald_earrings
+    wom:emerald_tasset
+    wom:ender_blaster
+    wom:eternal_fire_arcane
+    wom:gesetz
+    wom:gesetz_handle
+    wom:golden_chrono
+    wom:golden_greataxe
+    wom:golden_kit
+    wom:golden_mokassin
+    wom:golden_monocle
+    wom:golden_staff
+    wom:herrscher
+    wom:iron_greataxe
+    wom:iron_staff
+    wom:moonless
+    wom:moonless_handle
+    wom:netherite_belt
+    wom:netherite_chains
+    wom:netherite_greataxe
+    wom:netherite_manicle
+    wom:netherite_mask
+    wom:netherite_staff
+    wom:ruine
+    wom:satsujin
+    wom:satsujin_sheath
+    wom:solar
+    wom:solar_obscuridad
+    wom:stone_staff
+    wom:tormented_mind
+    wom:wooden_staff
+
+Missing minecraft:painting_variant:
+    epicfight:epicfight_logo
+
+Missing minecraft:block:
+    epicfight:fracture_block
+
+Missing minecraft:mob_effect:
+    epicfight:instability
+    epicfight:stun_immunity
+
+Missing minecraft:enchantment:
+    wom:invigoration
+
+Missing minecraft:entity_type:
+    epicfight:area_effect_breath
+    epicfight:death_harvest_orb
+    epicfight:dodge_left
+    epicfight:dropped_nether_star
+    epicfight:wither_ghost
+    epicfight:wither_skeleton_minion
+    wom:antitheus_darkness
+    wom:enderblast
+    wom:lupus_rex
+
+
+[13Apr2025 01:39:29.880] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[13Apr2025 01:39:31.448] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/solid-octo-sniffle/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23223!/assets/.mcassetsroot' uses unexpected schema
+[13Apr2025 01:39:31.448] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/solid-octo-sniffle/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23223!/data/.mcassetsroot' uses unexpected schema
+[13Apr2025 01:39:31.527] [main/INFO] [com.simibubi.create.Create/]: Created 310 recipes which will be injected into the game
+[13Apr2025 01:39:31.544] [main/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[13Apr2025 01:39:31.604] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:epicfight
+[13Apr2025 01:39:31.604] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:wom
+[13Apr2025 01:39:31.604] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:skinlayers3d
+[13Apr2025 01:39:31.605] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:oculus
+[13Apr2025 01:39:34.823] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 23 recipes
+[13Apr2025 01:39:35.023] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2814 advancements
+[13Apr2025 01:39:35.027] [main/INFO] [Dungeon Crawl/]: Loading data...
+[13Apr2025 01:39:35.384] [main/INFO] [Dungeon Crawl/]: Done.
+[13Apr2025 01:39:35.416] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[13Apr2025 01:39:35.422] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[13Apr2025 01:39:36.824] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[13Apr2025 01:39:36.827] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Apr2025 01:39:36.828] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Apr2025 01:39:36.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Apr2025 01:39:36.941] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Apr2025 01:39:36.964] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Apr2025 01:39:37.038] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Apr2025 01:39:37.039] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Apr2025 01:39:37.039] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Apr2025 01:39:37.039] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Apr2025 01:39:37.057] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[13Apr2025 01:39:37.206] [Server thread/INFO] [Framework/]: Loading server configs...
+[13Apr2025 01:39:37.224] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[13Apr2025 01:39:37.814] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[13Apr2025 01:39:37.815] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Apr2025 01:39:38.194] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:gold_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[13Apr2025 01:39:38.475] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Apr2025 01:39:43.674] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:gold_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[13Apr2025 01:39:43.688] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:gold_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[13Apr2025 01:39:43.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Apr2025 01:39:46.105] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Apr2025 01:39:47.591] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 01:39:47.595] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 01:39:47.596] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 01:39:47.597] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 01:39:47.598] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 01:39:47.600] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 01:39:47.601] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 01:39:47.606] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 01:39:47.695] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2025 01:39:48.135] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Apr2025 01:39:48.323] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[13Apr2025 01:39:48.700] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[13Apr2025 01:39:50.788] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[13Apr2025 01:39:50.789] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[13Apr2025 01:39:50.790] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[13Apr2025 01:39:50.790] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[13Apr2025 01:39:50.822] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Apr2025 01:39:51.231] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[13Apr2025 01:39:51.700] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[13Apr2025 01:39:52.196] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[13Apr2025 01:39:52.786] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[13Apr2025 01:39:53.212] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[13Apr2025 01:39:53.695] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[13Apr2025 01:39:54.248] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[13Apr2025 01:39:54.710] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[13Apr2025 01:39:55.197] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[13Apr2025 01:39:55.721] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[13Apr2025 01:39:55.803] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 12108 ms
+[13Apr2025 01:39:55.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (18.749s)! For help, type "help"
+[13Apr2025 01:39:55.809] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JMX monitoring enabled
+[13Apr2025 01:39:55.851] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Apr2025 01:39:56.006] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 164247 bytes (in 17 string chunks with the size of 10000)
+[13Apr2025 01:39:56.007] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: biomemusic.json
+[13Apr2025 01:40:12.466] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[13Apr2025 01:40:12.483] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/5fc3c070-6c66-3a8d-9d89-c949adf420fc.json: Don't know what epicfight:skillbook is
+[13Apr2025 01:40:12.483] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/5fc3c070-6c66-3a8d-9d89-c949adf420fc.json: Don't know what epicfight:stone_spear is
+[13Apr2025 01:40:12.484] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/5fc3c070-6c66-3a8d-9d89-c949adf420fc.json: Don't know what epicfight:uchigatana is
+[13Apr2025 01:40:12.530] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:max_strikes'
+[13Apr2025 01:40:12.530] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:12.531] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:12.531] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:staminar'
+[13Apr2025 01:40:12.531] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:12.531] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:offhand_impact'
+[13Apr2025 01:40:12.531] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:offhand_attack_speed'
+[13Apr2025 01:40:12.532] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:armor_negation'
+[13Apr2025 01:40:12.532] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:offhand_max_strikes'
+[13Apr2025 01:40:12.532] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:offhand_armor_negation'
+[13Apr2025 01:40:12.538] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Its_Isaias58[/127.190.109.88:60039] logged in with entity id 93 at (-514.5313093720107, 46.0, 148.79811491272815)
+[13Apr2025 01:40:12.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_Isaias58 joined the game
+[13Apr2025 01:40:14.168] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.268] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:max_strikes'
+[13Apr2025 01:40:14.269] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.269] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:14.269] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:14.270] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:max_strikes'
+[13Apr2025 01:40:14.271] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.271] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:14.271] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:14.278] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.296] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/102, l='ServerLevel[Mundo nuevo]', x=-460.26, y=37.00, z=97.04, removed=DISCARDED]
+[13Apr2025 01:40:14.370] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.373] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.378] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.385] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.386] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.387] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.412] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.418] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.419] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:max_strikes'
+[13Apr2025 01:40:14.419] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.419] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:14.419] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:armor_negation'
+[13Apr2025 01:40:14.419] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:14.420] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:max_strikes'
+[13Apr2025 01:40:14.420] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.421] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:14.421] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:14.424] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.461] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.461] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:14.462] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:armor_negation'
+[13Apr2025 01:40:14.462] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:14.463] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.469] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.469] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:14.470] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:14.471] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.473] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.473] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:14.473] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:14.475] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.477] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:max_strikes'
+[13Apr2025 01:40:14.477] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.477] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:14.478] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:armor_negation'
+[13Apr2025 01:40:14.478] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:14.507] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/138, l='ServerLevel[Mundo nuevo]', x=-457.41, y=37.00, z=95.13, removed=DISCARDED]
+[13Apr2025 01:40:14.507] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/140, l='ServerLevel[Mundo nuevo]', x=-462.10, y=37.00, z=95.21, removed=DISCARDED]
+[13Apr2025 01:40:14.508] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/150, l='ServerLevel[Mundo nuevo]', x=-464.88, y=37.00, z=95.70, removed=DISCARDED]
+[13Apr2025 01:40:14.511] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.515] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.522] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.525] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.619] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.619] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.620] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.621] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:14.621] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:15.101] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:15.205] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:15.206] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:15.206] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:15.241] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:15.245] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:15.245] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:15.245] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:15.246] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:15.246] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:15.246] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:15.344] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:15.659] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:15.662] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:15.663] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:15.664] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:15.665] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:15.666] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:15.667] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:15.795] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:15.796] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:16.051] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:16.053] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:16.054] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:16.054] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:max_strikes'
+[13Apr2025 01:40:16.055] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:16.055] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:16.055] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:16.058] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:16.059] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:16.115] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:16.149] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:16.150] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:16.150] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:16.151] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:16.151] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:16.152] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:max_strikes'
+[13Apr2025 01:40:16.152] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:16.152] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:16.153] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:16.248] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:16.502] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:16.502] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:16.503] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:16.691] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:17.014] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:17.015] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:17.015] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:armor_negation'
+[13Apr2025 01:40:17.015] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:17.310] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:17.312] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:17.313] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:17.313] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:17.352] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:17.359] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:17.360] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:17.708] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:17.712] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:max_strikes'
+[13Apr2025 01:40:17.712] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:17.712] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:17.712] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:armor_negation'
+[13Apr2025 01:40:17.713] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:17.713] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:17.713] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:impact'
+[13Apr2025 01:40:17.714] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:stun_armor'
+[13Apr2025 01:40:17.763] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:18.011] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:18.013] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:18.015] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:40:18.017] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'epicfight:weight'
+[13Apr2025 01:42:51.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_Isaias58 has made the advancement [Suit Up]
+[13Apr2025 01:43:37.751] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:mine_with_campsite/side_pool which is being called from mvs:other_decoration/mine_with_campsite
+[13Apr2025 01:44:29.506] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[13Apr2025 01:48:44.588] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/138, l='ServerLevel[Mundo nuevo]', x=-457.41, y=37.00, z=95.13, removed=DISCARDED]
