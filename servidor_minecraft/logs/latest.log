@@ -640,3 +640,34 @@ Missing minecraft:entity_type:
 [13Apr2025 01:43:37.751] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:mine_with_campsite/side_pool which is being called from mvs:other_decoration/mine_with_campsite
 [13Apr2025 01:44:29.506] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
 [13Apr2025 01:48:44.588] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/138, l='ServerLevel[Mundo nuevo]', x=-457.41, y=37.00, z=95.13, removed=DISCARDED]
+[13Apr2025 01:52:14.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_Isaias58 has made the advancement [Not Today, Thank You]
+[13Apr2025 01:53:24.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_Isaias58 was slain by Zombie
+[13Apr2025 01:53:26.101] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/150, l='ServerLevel[Mundo nuevo]', x=-464.88, y=37.00, z=95.70, removed=DISCARDED]
+[13Apr2025 01:53:26.113] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/138, l='ServerLevel[Mundo nuevo]', x=-457.41, y=37.00, z=95.13, removed=DISCARDED]
+[13Apr2025 01:53:26.115] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/140, l='ServerLevel[Mundo nuevo]', x=-462.10, y=37.00, z=95.21, removed=DISCARDED]
+[13Apr2025 01:53:26.118] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/102, l='ServerLevel[Mundo nuevo]', x=-460.26, y=37.00, z=97.04, removed=DISCARDED]
+[13Apr2025 01:55:20.341] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_Isaias58 lost connection: Disconnected
+[13Apr2025 01:55:20.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_Isaias58 left the game
+[13Apr2025 01:56:23.082] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Its_Isaias58[/127.190.109.88:40055] logged in with entity id 8138 at (-516.2982546212824, 37.0, 168.27815468266354)
+[13Apr2025 01:56:23.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_Isaias58 joined the game
+[13Apr2025 01:56:23.902] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/102, l='ServerLevel[Mundo nuevo]', x=-460.26, y=37.00, z=97.04, removed=DISCARDED]
+[13Apr2025 01:56:23.907] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/150, l='ServerLevel[Mundo nuevo]', x=-464.88, y=37.00, z=95.70, removed=DISCARDED]
+[13Apr2025 01:56:23.909] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/138, l='ServerLevel[Mundo nuevo]', x=-457.41, y=37.00, z=95.13, removed=DISCARDED]
+[13Apr2025 01:56:23.910] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/140, l='ServerLevel[Mundo nuevo]', x=-462.10, y=37.00, z=95.21, removed=DISCARDED]
+[13Apr2025 01:56:53.142] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_Isaias58 lost connection: Timed out
+[13Apr2025 01:56:53.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_Isaias58 left the game
+[13Apr2025 01:57:10.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[13Apr2025 01:57:11.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Apr2025 01:57:11.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Apr2025 01:57:11.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Apr2025 01:57:11.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[13Apr2025 01:57:11.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[13Apr2025 01:57:11.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[13Apr2025 01:57:11.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13Apr2025 01:57:11.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13Apr2025 01:57:11.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13Apr2025 01:57:11.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13Apr2025 01:57:11.974] [Server thread/INFO] [Framework/]: Unloading server configs...
+[13Apr2025 01:57:11.975] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[13Apr2025 01:57:11.976] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[13Apr2025 01:57:11.977] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
